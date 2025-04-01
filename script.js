@@ -4,7 +4,7 @@ let store=""
 	for(let i of str){
 		if(str[i]==='a' && str[i]==='z' || str[i]==="A" && str[i]==='Z'){
 			store=store+str[i]
-			store=str[i].toUpperCase()
+			store=store.toUpperCase()
 		}
 		
 	}
