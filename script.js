@@ -1,10 +1,7 @@
-//your JS code here. If required.
-function changeIntoUpper(str){
-let store=""
-	for(let i of str){
-		store += i.toUpperCase(); 
-		
-		
-	}
-	return store
-}
+
+    <script>
+        function convertToUpper() {
+            let inputField = document.getElementById("name");
+            inputField.value = inputField.value.toUpperCase(); // Convert input to uppercase
+        }
+    </script>
