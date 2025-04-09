@@ -1,7 +1,4 @@
-
-    <script>
-        function convertToUpper() {
-            let inputField = document.getElementById("name");
-            inputField.value = inputField.value.toUpperCase(); // Convert input to uppercase
-        }
-    </script>
+ function convertToUppercase() {
+    const input = document.getElementById("fname");
+    input.value = input.value.toUpperCase();
+  }
